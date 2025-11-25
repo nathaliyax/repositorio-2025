@@ -1,5 +1,8 @@
-
 body {
+    display: flex;
+    flex-direction: column;
+
+
    background-image: linear-gradient(
         100deg,
         #171133,
@@ -7,13 +10,16 @@ body {
    );
 
         background-size: 100% 100%;
-        background-repeat: no-repeat;
+        
     
 }
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    padding: 30px;
 
 }
 
@@ -22,6 +28,15 @@ main {
     gap: 30px;
     align-items: center;
     width: 100%;
+    justify-content: center;
+
     
-    
+}
+
+.main-info { 
+
+    width: 601.58px;
+    height: 183.11px;
+    top: 398.87px;
+    left: 222.62px;
 }
